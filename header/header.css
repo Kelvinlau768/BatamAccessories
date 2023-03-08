@@ -1,0 +1,32 @@
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    color: white;
+    height: 77px;
+}
+
+.header .container  {
+    background-color: red;
+    font-size: 13px;
+}
+
+.header .logo img  {
+    width: 90px;
+    height: 35px;
+}
+
+
+.header .container ul {
+    display: flex;
+    background-color: red;
+    align-items: center;
+    padding: 0;
+    gap: 20px;
+}
+
+.header .container ul li {
+    list-style: none;
+    background-color: blue;
+}
