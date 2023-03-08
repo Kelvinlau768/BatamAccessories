@@ -559,7 +559,7 @@ button {
 }
 
 
-@media screen and (min-width: 623px) and (max-width: 625px){
+@media screen and (min-width: 103px) and (max-width: 725px){
     * {
         background-color: red;
     }
