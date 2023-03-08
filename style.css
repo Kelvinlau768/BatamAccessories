@@ -557,9 +557,3 @@ button {
         color: white;
     }
 }
-
-@media screen and (min-width: 103px) and (max-width: 725px){
-    * {
-        background-color: red;
-    }
-}
