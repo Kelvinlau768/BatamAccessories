@@ -560,7 +560,7 @@ button {
     .banner-container .banner img {
         width: 100%;
         height: auto;
-        min-width: 204px;
+        min-height: 204px;
     }
     
     .banner-container .banner {
