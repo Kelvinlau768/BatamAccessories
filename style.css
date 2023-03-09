@@ -429,6 +429,12 @@ button {
         font-size: 23px;
     }
 
+    /* categories */
+
+    .main-container .container .categories {
+        margin-bottom: 10px;
+    }
+
     .main-container .container .categories .title {
         font-size: 28px;
         text-align: center;
@@ -440,7 +446,7 @@ button {
         overflow: scroll;
         width: 100%;
         gap: 64px;
-        padding: 0 40px;
+        margin: 0 45px;
     }
     
     .main-container .container .categories .group::-webkit-scrollbar {
@@ -475,7 +481,6 @@ button {
         overflow-x: hidden;
         scroll-snap-type: x mandatory;
         scroll-behavior: smooth;
-
     }
 
     .slider img {
@@ -527,6 +532,7 @@ button {
         letter-spacing: 1px;
         text-transform: uppercase;
         color: white;
+        text-align: center;
     }
     
     .slider-container .content p:nth-child(2) {
@@ -556,6 +562,8 @@ button {
         background-color: black;
         color: white;
     }
+
+    /* banner */
 
     .banner-container .banner img {
         width: 100%;
