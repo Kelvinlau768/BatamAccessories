@@ -113,6 +113,31 @@ button {
 
 
 @media screen and (min-width: 1600px) {
+    .main-container .container .categories .title {
+        font-size: 44px;
+        text-align: center;
+        margin-bottom: 52px;
+    }
+    
+    .main-container .container .categories .group {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        gap: 93px;
+    }
+    
+    .main-container .container .categories .group .category img {
+        width: 103px;
+        height: 103px;
+    }
+    
+    .main-container .container .categories .group .category p {
+        text-align: center;
+        margin-top: 24px;
+        font-size: 14px;
+    }
+
     .banner-container .banner img {
         width: 100%;
         height: auto;
@@ -402,6 +427,42 @@ button {
 
     .mobile-navigation .right ul li:nth-child(2) {
         font-size: 23px;
+    }
+
+    /* categories */
+
+    .main-container .container .categories {
+        margin-bottom: 10px;
+    }
+
+    .main-container .container .categories .title {
+        font-size: 28px;
+        text-align: center;
+        margin: 0 0 28px;
+    }
+    
+    .main-container .container .categories .group {
+        display: flex;
+        overflow: scroll;
+        width: 100%;
+        gap: 64px;
+        margin: 0 45px;
+    }
+    
+    .main-container .container .categories .group::-webkit-scrollbar {
+       -webkit-appearance: none;
+       width: 7px;
+    }
+    
+    .main-container .container .categories .group .category img {
+        width: 94px;
+        height: 94px;
+    }
+    
+    .main-container .container .categories .group .category p {
+        text-align: center;
+        margin-top: 24px;
+        font-size: 13px;
     }
 
     .slider-container {
