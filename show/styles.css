@@ -102,3 +102,9 @@ main i {
     margin: 14px 21px;
     font-size: 14px;
 }
+
+@media screen and (max-width: 400px) {
+    .accordion {
+        width: 350px;
+    }
+}
