@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+main {
+    background-color: red;
+    height: 1000px;
+}
+
+main i {
+    font-size: 100px;
+}
+
+.hidden {
+    display: none;
+}
+
+.bi-dash {
+    display: none;
+}
+
+.show {
+    display: block !important;
+}
+
+.accordion {
+    top: 0;
+    position: absolute;
+    background-color: white;
+    width: 400px;
+    height: 1000px;
+    padding: 30px 40px 0 40px;
+    display: none;
+    z-index: 20;
+}
+
+.accordion .close-button i {
+    font-size: 30px;
+    margin-left: -5px;
+    cursor: pointer;
+}
+
+.accordion .container {
+    border-bottom: 1px solid rgb(210, 210, 210);
+    padding: 24px 0;
+}
+
+.accordion .container .modal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.accordion .container .modal p {
+    font-size: 18px;
+    letter-spacing: -0.3px;
+}
+
+.accordion .container .modal i {
+    font-size: 20px;
+    color: black;
+}
+
+.accordion .container .content {
+    margin: 10px 0 10px 10px;
+    font-size: 14px;
+    display: none;
+}
+
+.accordion .container .content .groups {
+    margin: 15px 0;
+}
+
+.accordion .container .content .groups .content-modal {
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.accordion .container .content .groups .content-modal i {
+    font-size: 20px;
+    color: black;
+}
+
+.accordion .container .content .description p {
+    margin: 21px 0px;
+}
+
+.accordion .container .content .groups .group {
+    font-size: 14px;
+    border-left: 1px solid rgb(210, 210, 210);
+    display: none;
+}
+
+.accordion .container .content .groups .group p {
+    margin: 14px 21px;
+    font-size: 14px;
+}

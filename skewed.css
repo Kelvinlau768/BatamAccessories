@@ -77,8 +77,8 @@ img {
 @media screen and (max-width: 750px) {
     .skewed {
         display: block;
-        width: 80%;
-        margin: 50px auto;
+        width: 90%;
+        margin: 40px auto;
     }
 
     .image, .text {

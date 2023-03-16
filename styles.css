@@ -1,0 +1,13 @@
+.show-nav {
+    width: 400px;
+    background-color: white;
+    height: 100%;
+    z-index: 100;
+    position: fixed;
+    top: 0;
+    display: none;
+}
+
+.show {
+    display: block;
+}
